@@ -43,7 +43,10 @@
     width: 60%;
     justify-content: flex-start;
     margin-top: 1rem;
+}
 
+input{
+    border: 1px solid black;
 }
 
 .signup-input input {
@@ -77,12 +80,29 @@
     cursor: pointer;
 }
 
-@media (max-width:450px) {
-    .signup-img {
+@media (max-width: 768px){
+    img{
         display: none;
     }
 
-    .signup-form {
-        width: 100%
+    .signup-container{
+        width: 60%;
+        /* max-width: fit-content; */
     }
 }
+
+@media (max-width:450px) {
+    img{
+        display: none;
+    }
+
+    .signup-img{
+        display: none;
+    }
+
+    .signup-container{
+        width: 90%;
+        /* max-width: fit-content; */
+    }
+}
+

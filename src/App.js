@@ -29,6 +29,8 @@ import CommentModal from "./components/Modal/CommentModal";
 // import Games from "/pages/Games/Games.jsx"
 import Games from "./pages/Games/Games";
 import SearchPage from "./pages/SearchPage/SearchPage";
+import Streaming from "./pages/Stream/Streaming";
+import News from "./pages/News/News";
 
 // const UserModal = lazy(() => import("./components/Modal/UserModal"));
 // const LikePage = lazy(() => import("./pages/LikePage/LikePage"));
@@ -175,6 +177,24 @@ function App() {
                 </AuthWrapper>
               }
             ></Route>
+              <Route
+              path="/streaming"
+              element={
+                <AuthWrapper>
+                  <Streaming />
+                </AuthWrapper>
+              }
+            >
+            </Route>
+            <Route
+              path="/news"
+              element={
+                <AuthWrapper>
+                  <News />
+                </AuthWrapper>
+              }
+            >
+            </Route>
             <Route
               path="/profilepage/:username"
               element={

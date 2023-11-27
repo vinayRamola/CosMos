@@ -44,9 +44,9 @@ const SignUp = () => {
         </div>
         <div className="signup-form">
           <h1>
-            <span className="text-primary">Share</span>
+            <span className="text-primary">Cos</span>
             <span className="text-secondary-dark">M</span>
-            <span className="text-primary">ate</span>
+            <span className="text-primary">os</span>
           </h1>
           <div>
             <i>Share anything and everything</i>

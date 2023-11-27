@@ -70,9 +70,9 @@ const Navbar = () => {
       <div className="nav-desktop">
         <div>
           <h1>
-            <span className="text-primary">Share</span>
+            <span className="text-primary">Cos</span>
             <span className="text-secondary-dark">M</span>
-            <span className="text-primary">ate</span>
+            <span className="text-primary">os</span>
           </h1>
         </div>
         <NavLink className="not-a-link" to="/landing">
@@ -119,6 +119,31 @@ const Navbar = () => {
             Profile
           </div>
         </NavLink>
+        <NavLink className="not-a-link" to={`https://my-project-iota-opal.vercel.app/`}>
+          <div className="nav-content">
+            <div className="nav-icons">
+              <PersonIcon />
+            </div>{" "}
+            Streaming
+          </div>
+        </NavLink>
+        <NavLink className="not-a-link" to={`https://cosmos-pearl.vercel.app/`}>
+          <div className="nav-content">
+            <div className="nav-icons">
+              <PersonIcon />
+            </div>{" "}
+            News
+          </div>
+        </NavLink>
+        <NavLink className="not-a-link" to={`/game`}>
+          <div className="nav-content">
+            <div className="nav-icons">
+              <PersonIcon />
+            </div>{" "}
+            Games
+          </div>
+        </NavLink>
+
         <NavLink className="not-a-link">
           {" "}
           <div

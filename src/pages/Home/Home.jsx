@@ -40,9 +40,9 @@ const Home = () => {
           <div className="login-container">
             <div>
               <h1>
-                <span className="text-primary">Share</span>
+                <span className="text-primary">Cos</span>
                 <span className="text-secondary-dark">M</span>
-                <span className="text-primary">ate</span>
+                <span className="text-primary">os</span>
               </h1>
             </div>
             <div style={{ textAlign: "center", padding: "1rem" }}>

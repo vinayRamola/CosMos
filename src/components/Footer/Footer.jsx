@@ -27,7 +27,7 @@ const Footer = () => {
           <div>
             <a
              className="not-link"
-              href="https://github.com/BhumikaSingh-27"
+              href="https://github.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -37,7 +37,7 @@ const Footer = () => {
           <div>
             <a
             className="not-link"
-              href="https://twitter.com/BhumikaSingh27"
+              href="https://twitter.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -47,7 +47,7 @@ const Footer = () => {
           <div>
             <a
              className="not-link"
-              href="https://www.linkedin.com/in/bhumika-singh-594004184/"
+              href="https://www.linkedin.com/in"
               target="_blank"
               rel="noreferrer"
             >
@@ -56,7 +56,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div>&#169; 2023 | ShareMate</div>
+        <div>&#169; 2023 | CosMos</div>
       </div>
     </div>
   );

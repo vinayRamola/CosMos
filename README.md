@@ -1,4 +1,4 @@
-![Sharemate Logo](https://res.cloudinary.com/dgoldjr3g/image/upload/v1688866430/NegProjects/favicon_idgipx.jpg)
+![CosMos Logo](https://res.cloudinary.com/dgoldjr3g/image/upload/v1688866430/NegProjects/favicon_idgipx.jpg)
 
 #### A Social Media App to connect with people
 
@@ -8,7 +8,7 @@
 
 ```
 $ git clone https://github.com/BhumikaSingh-27/ShareMate.git
-$ cd sharemate
+$ cd CosMos
 $ npm install
 $ npm start
 ```

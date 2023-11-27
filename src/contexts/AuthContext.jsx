@@ -106,7 +106,7 @@ export const AuthContextProvider = ({ children }) => {
           dispatch({ type: "GET_USERS", payload: res.data.users });
           toastNotify(
             "success",
-            "Welcome to ShareMate! You're successfully signed up!"
+            "Welcome to CosMos! You're successfully signed up!"
           );
         }
       } catch (e) {
